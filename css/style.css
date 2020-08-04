@@ -278,6 +278,13 @@
         display: flex;
         flex-direction: column;
     }
+    .first_section, .third_section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .second_section{
+        flex-direction: column-reverse;
+    }
 
     /* Main section ends here */
 }
