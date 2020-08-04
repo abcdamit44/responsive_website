@@ -229,6 +229,7 @@
 @media (max-width:768px) {
     /* Responsive Navbar Stats Here */
     .navbar {
+        position: sticky;
         display: flex;
         flex-direction: column;
         justify-content: center;
