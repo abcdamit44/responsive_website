@@ -271,6 +271,15 @@
         opacity: 0;
     }
     /* Responsive Navbar Ends Here */
+
+
+    /* Main section starts here */
+    .main_section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Main section ends here */
 }
 
 @media(max-width:1112px) {
