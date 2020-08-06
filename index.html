@@ -21,7 +21,7 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Service</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
         <div class="search v_class_resp">
             <input type="text" name="search" placeholder="Search" class="input_class">
@@ -215,9 +215,28 @@
 
     <!-- Gallery Section ends here -->
 
+    <!-- Contact form starts here -->
+
+    <section class="contact" id="contact">
+        <div class="contact_form">
+            <form action="/index.html" method="post">
+                <h2>Contact Us</h2>
+                <input type="text" name="name" placeholder="Enter Your Name">
+                <input type="email" name="email" placeholder="Enter Your Email">
+                <input type="text" name="phone" placeholder="Enter Your Phone Number">
+                <textarea name="address" id="address" cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+                <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Tell us "></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact form ends here -->
+
+    <footer class="background">
+        <p>Copyright &copy; 2020 | All Rights Reserved </p>
+    </footer>
 
 
-    
     <!-- JavaScript and JQuery Files -->
     <script src="js/index.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>

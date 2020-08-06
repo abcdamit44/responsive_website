@@ -81,6 +81,7 @@
     border: 1px solid black;
     color: white;
     background-color: royalblue;
+    cursor: pointer;
 }
 
 .btn_search {
@@ -233,15 +234,16 @@
     width: 100%;
     padding-top: 80px;
 }
-.card_container{
+
+.card_container {
     width: 80%;
     display: grid;
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1rem;
     margin: auto;
-
 }
+
 .card {
     height: 300px;
     width: 200px;
@@ -282,6 +284,51 @@
 .card_btn {
     margin-top: 10px;
     padding: 3px 7px;
+}
+
+/* Contact page Starts here */
+.contact{
+    height: 100%;
+}
+.contact_form{
+    width: 60%;
+    margin: 20px auto;
+}
+.contact_form h2{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact_form input{
+    font-family: fantasy;
+    padding: 5px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.contact_form textarea{
+    font-family: fantasy;
+    padding: 5px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+/* Footer Starts here */
+
+footer {
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width:768px) {
@@ -377,6 +424,14 @@
         margin: 0;
     }
     /* Main section ends here */
+
+
+    /* Contact page Starts here */
+
+    .contact_form{
+        width: 90%;
+    }
+
 }
 
 @media(max-width:1112px) {
@@ -416,4 +471,10 @@
         margin: auto;
     }
     /* Responsive Intro Section Ends Here */
+
+     /* Contact page Starts here */
+
+     .contact_form{
+        width: 70%;
+    }
 }
