@@ -27,6 +27,7 @@
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -213,8 +214,8 @@
 
 .second_section .section_img {
     margin-right: 18px;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 
 .second_section .para {
