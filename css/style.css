@@ -13,7 +13,7 @@
 /* Navbar Starts here */
 
 .background {
-    background: url(../images/5.jpg), linear-gradient(wheat, white);
+    background: url(https://picsum.photos/1600/900?nature=1), linear-gradient(wheat, white);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +170,7 @@
 /* Main Section Starts Here */
 
 .main_section {
-    background: url(../images/3.jpg), linear-gradient(wheat, white);
+    background: url(https://picsum.photos/1600/901?random=1), linear-gradient(wheat, white);
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-size: cover;
